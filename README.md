@@ -4,4 +4,6 @@
 
 My blockmate tasked me to redesign Craigslist as his midterm project in his Web Programming class. He said he would pay me for it. Oh well.
 
-<a href="https://dartegnian.github.io/Brian-Craigslist/index.html" target="_blank">LIVE DEMO</a>
+<p align="center">
+	<a href="https://dartegnian.github.io/Brian-Craigslist/index.html" target='_blank'>LIVE DEMO</a>
+</p>
