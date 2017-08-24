@@ -32,25 +32,25 @@
 	<div id="fullwidth">
 		<h1 style="display: inline;"> <img id="logo" src="Resources\Images\craigslist-logo-purple.png"/></h1>
 		<button style="display: inline-block;float: right; margin-left: -5px; margin-top: 10px;" class="userbutt" onclick="Redirect()">Register</button>
-		<form action="done.html" method="post" style="display: inline;">
-			<table border="0" style="display: inline; float: right;">
-				<tr style="display: inline;">
-				<td style="color: #777">Email</td>
-				<td align="left"><input class="inputfield" type="text" name="email" size="20" maxlength="50" /></td>
-				</tr>
-				<tr style="display: inline;">
-				<td style="color: #777">Password</td>
-				<td align="left"><input class="inputfield" type="password" name="password" size="20" maxlength="50" /></td>
-				</tr>
-				<tr style="display: inline;">
-				<td style="border-right: 1px solid #e4e4e4; padding-right: 10px;" colspan="2" align="center"><input type="submit" value="Log In" class="button"/></td>
-				</tr>
-				<tr style="display: inline;">
-				<td colspan="2" align="center">
-				</td>
-				</tr>
-			</table>
-		</form>
+		<form action="done.php" method="post" style="display: inline;">
+				<table border="0" style="display: inline; float: right;">
+					<tr style="display: inline;">
+					<td style="color: #777">Username</td>
+					<td align="left"><input class="inputfield" type="text" name="username" size="20" maxlength="50" style="background-color: white; background-size: 30px; background-repeat: no-repeat;"></td>
+					</tr>
+					<tr style="display: inline;">
+					<td style="color: #777">Password</td>
+					<td align="left"><input class="inputfield" type="password" name="password" style="background-color: white; background-size: 30px; background-repeat: no-repeat;" size="20" maxlength="50" /></td>
+					</tr>
+					<tr style="display: inline;">
+					<td style="border-right: 1px solid #e4e4e4; padding-right: 10px;" colspan="2" align="center"><input type="submit" value="Log In" class="button"/></td>
+					</tr>
+					<tr style="display: inline;">
+					<td colspan="2" align="center">
+					</td>
+					</tr>
+				</table>
+			</form>
 		<nav id="headnav">
 				<a id="current">Home</a>
 				<a onclick="redirect()">Dashboard</a>

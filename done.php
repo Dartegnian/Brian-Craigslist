@@ -32,25 +32,25 @@
 	<div id="fullwidth" style="height: 65px;">
 		<h1 style="display: inline;"><a href="index.html"><img id="logo" src="Resources\Images\craigslist-logo-purple.png"/></a></h1>
 		<button style="display: inline-block;float: right; margin-left: -5px; margin-top: 10px;" class="userbutt" onclick="Redirect()">Register</button>
-		<form action="done.html" method="post" style="display: inline;">
-			<table border="0" style="display: inline; float: right;">
-				<tr style="display: inline;">
-				<td style="color: #777">Email</td>
-				<td align="left"><input class="inputfield" type="text" name="email" size="20" maxlength="50" /></td>
-				</tr>
-				<tr style="display: inline;">
-				<td style="color: #777">Password</td>
-				<td align="left"><input class="inputfield" type="password" name="password" size="20" maxlength="50" /></td>
-				</tr>
-				<tr style="display: inline;">
-				<td style="border-right: 1px solid #e4e4e4; padding-right: 10px;" colspan="2" align="center"><input type="submit" value="Log In" class="button"/></td>
-				</tr>
-				<tr style="display: inline;">
-				<td colspan="2" align="center">
-				</td>
-				</tr>
-			</table>
-		</form>
+		<form action="dashboard.php" method="post" style="display: inline;">
+				<table border="0" style="display: inline; float: right;">
+					<tr style="display: inline;">
+					<td align="left"><input class="inputfield" type="text" readonly="yes" name="username" value="<?php
+					if(!empty($_POST['username'])) {
+						$username = $_POST['username'];
+						echo $username;
+					} else {
+						echo "Demo User";
+					}
+					?>"
+				size="20" maxlength="50" style="background-color: white; background-size: 30px; background-repeat: no-repeat;"></td>
+					</tr>
+					<tr style="display: inline;">
+					<td colspan="2" align="center">
+					</td>
+					</tr>
+				</table>
+			</form>
 	</div>
 	<header id="header1" style="height: 250px;">
 		<h1 class="slogan"><span class="rotate">THANK YOU FOR VISITING, THIS PROJECT IS FINISHED, PLEASE COME AGAIN SOON</span></h1>
