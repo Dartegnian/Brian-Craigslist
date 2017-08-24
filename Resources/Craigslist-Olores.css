@@ -12,6 +12,21 @@
     border-radius: 0px;
     -webkit-border-radius: 0px;
 }
+nav #current {
+    color: #754ca6;
+}
+nav a {
+    cursor: pointer;
+    transition: all .50s;
+    color: #777;
+    font-family: Segoe UI Light;
+    font-weight: 600;
+    padding: 0px;
+    padding-right: 30px;
+    text-align: left;
+    font-size: 20px;
+    text-decoration: none;
+}
 button {
     outline: none;
 }
