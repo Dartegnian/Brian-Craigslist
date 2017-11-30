@@ -3,7 +3,3 @@
 </p>
 
 My classmate has this web programming class and they were tasked to create a redesign of an existing site. They were assigned to Craigslist and my classmate then contacted me to make a design and the site itself. This is a "minimal" site so keep your expectations low. I made this in under 8 hours using the base website template I made when we were at F.E.U. Tech.
-
-<p align="center">
-	<a href="https://dartegnian.github.io/Brian-Craigslist/index.html" target='_blank'>LIVE DEMO</a>
-</p>
